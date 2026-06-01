@@ -1,0 +1,8 @@
+# train_datasets.py
+ultralytics>=8.0.0
+PyYAML>=6.0
+
+# convert_supervisely_to_yolo.py
+opencv-python>=4.5.0
+
+# video_splitter.py — stdlib only; install FFmpeg separately and ensure ffmpeg/ffprobe are on PATH
