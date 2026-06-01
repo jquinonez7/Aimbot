@@ -1,0 +1,22 @@
+How to use the script.
+1. Make sure you installed all the required library in requirement.txt
+
+2. Turn on the script. Two things are adjustable:
+	a. Confidence score ( 0% to 100%. Default is at 50%. If the model detects wrong targets i.e box not around the blue ball -> increase confidence score. If the model cannot detect targets, i.e no box around blue ball -> decrease confidence score)
+	b. NAP_MULTIPLIER, if the scripts overshoots the target, decrease. If undershoots, increase.
+
+3. Turn on Aimlabs, put it to windowed-mode. 
+	a. Crosshair must be as invisible as possible (avoid hiding the target thus make the model harder to detect target)
+	b. Crosshair must match the yellow dot.(Trick for easily line them up: aim your in-game crosshair to a in game target blue ball. Press esc, then move the game window until the yellow dot also matches the ball.
+
+
+
+
+Project development steps:
+1. Data gathering(Gameplay videos are recorded) Matthew
+2. Data Labeling(Videos are annotated using Supervisely.com) Jade
+3. Model Training(A computer vision model is trained using ultralytics yolo library) Giahuy
+5. Script development(A finished CV model is being used to detect targets) Eli
+6. Presentation Wardah
+
+
